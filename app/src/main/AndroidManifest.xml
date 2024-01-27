@@ -13,6 +13,69 @@
         android:theme="@style/Theme.GaquestPoquest"
         tools:targetApi="31">
         <activity
+            android:name=".EndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinishFightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".FightActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LevelActivity2"
+            android:exported="false" />
+        <activity
             android:name=".FightActivity1"
             android:exported="false" />
         <activity
