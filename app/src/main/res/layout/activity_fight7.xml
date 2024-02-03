@@ -11,7 +11,7 @@
         android:id="@+id/textViewDementor"
         android:layout_width="177dp"
         android:layout_height="317dp"
-        android:text="@string/dementor"
+        android:text="@string/dragon"
         android:textColor="@color/design_default_color_on_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/dementor" />
+        app:srcCompat="@drawable/dragon_ron" />
 
     <Button
         android:id="@+id/buttonAdavaKedavra"
