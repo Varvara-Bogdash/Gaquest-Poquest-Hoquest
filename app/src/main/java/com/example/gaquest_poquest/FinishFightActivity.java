@@ -100,14 +100,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);
@@ -128,14 +128,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - "+countClickKru+", адава кедавра - "+countClickAdKe+", империус - "+countClickImp+", оборонительное заклинание - "+countClickChit+"; здоровье - "+healthHero+"/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);
@@ -161,14 +161,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);
@@ -189,14 +189,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);
@@ -222,14 +222,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);
@@ -250,7 +250,7 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
@@ -273,7 +273,7 @@ public class FinishFightActivity extends AppCompatActivity {
             buttonChit.setEnabled(false);
             textViewFight.append("Вы применили усиление оборонительное заклинание. ");
             dementorFight();
-            healthHero += 10;
+            healthHero += 15;
             countClickChit = 0;
             if (Objects.equals(name1, "Гермиона Грейнджер")) {
                 textViewHero.setText("Гермиона Грейнджер (сила - 80/100; усиления: круциатус - "+countClickKru+", адава кедавра - "+countClickAdKe+", империус - "+countClickImp+", оборонительное заклинание - "+countClickChit+"; здоровье - "+healthHero+"/100;)");
@@ -284,14 +284,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);
@@ -311,14 +311,14 @@ public class FinishFightActivity extends AppCompatActivity {
                     textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
                 }
             }
-            if (healthDementor == 0){
+            if (healthDementor <= 0){
                 textViewFight.setText(name1 + " победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;
                 Intent intent = new Intent(this, EndActivity.class);
                 intent.putExtra("name", name1);
                 intent.putExtra("win", winOrNot);
                 startActivity(intent);
-            }else if (healthHero == 0){
+            }else if (healthHero <= 0){
                 textViewFight.setText("Вы поиграли в игре! Для того, чтобы начать заново, нажмите любую кнопку.");
                 winOrNot = false;
                 Intent intent = new Intent(this, MainActivity.class);

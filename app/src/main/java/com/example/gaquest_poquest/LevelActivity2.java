@@ -19,7 +19,7 @@ public class LevelActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2);
-        imageView = findViewById(R.id.imageView2);
+        imageView = findViewById(R.id.imageView5);
         name1 = Objects.requireNonNull(getIntent().getExtras()).getString("name");
         if (Objects.equals(name1, "Гермиона Грейнджер")) {
             imageView.setImageResource(R.drawable.germiona_in_secret_room);
