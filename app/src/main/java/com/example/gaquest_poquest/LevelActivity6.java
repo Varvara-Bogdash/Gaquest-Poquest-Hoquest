@@ -22,12 +22,12 @@ public class LevelActivity6 extends AppCompatActivity {
         imageView = findViewById(R.id.imageView2);
         name1 = Objects.requireNonNull(getIntent().getExtras()).getString("name");
         if (Objects.equals(name1, "Гермиона Грейнджер")) {
-            imageView.setImageResource(R.drawable.Malfoy_germi);
+            imageView.setImageResource(R.drawable.malfoy_ron);
         } else {
             if (Objects.equals(name1, "Рон Уизли")) {
                 imageView.setImageResource(R.drawable.malfoy_ron);
             } else {
-                imageView.setImageResource(R.drawable.Malfoy_garry);
+                imageView.setImageResource(R.drawable.malfoy_ron);
             }
         }
     }
