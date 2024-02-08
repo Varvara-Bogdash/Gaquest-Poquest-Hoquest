@@ -13,6 +13,12 @@ public class EndActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_end);
+        int countClickAdKe = Integer.parseInt(Objects.requireNonNull(getIntent().getExtras()).getString("countClickAdKe"));
+        int countClickImp = Integer.parseInt(Objects.requireNonNull(getIntent().getExtras()).getString("countClickImp"));
+        int countClickKru = Integer.parseInt(Objects.requireNonNull(getIntent().getExtras()).getString("countClickKru"));
+        int countClickChit = Integer.parseInt(Objects.requireNonNull(getIntent().getExtras()).getString("countClickChit"));
+        int variantOfButton = Integer.parseInt(Objects.requireNonNull(getIntent().getExtras()).getString("variantOfButton"));
+
     }
 
     public void start(View view) {

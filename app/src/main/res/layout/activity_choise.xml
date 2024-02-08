@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiseActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="227dp"
+        android:text="@string/choise_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/add_adava_kedavra"
+        android:layout_width="229dp"
+        android:layout_height="57dp"
+        android:onClick="addAdKe"
+        android:text="@string/add_adava_kedavra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <Button
+        android:id="@+id/add_imperius"
+        android:layout_width="227dp"
+        android:layout_height="59dp"
+        android:onClick="addImp"
+        android:text="@string/add_imperius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_adava_kedavra"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <Button
+        android:id="@+id/add_krucio"
+        android:layout_width="230dp"
+        android:layout_height="59dp"
+        android:onClick="addKru"
+        android:text="@string/add_krucio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_imperius"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/miss_button"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:onClick="miss"
+        android:text="@string/miss"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorLink="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_krucio"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <Button
+        android:id="@+id/button_chit"
+        android:layout_width="226dp"
+        android:layout_height="71dp"
+        android:onClick="addChit"
+        android:text="@string/add_chit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+</androidx.constraintlayout.widget.ConstraintLayout>

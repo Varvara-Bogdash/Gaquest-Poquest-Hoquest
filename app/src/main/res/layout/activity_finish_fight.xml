@@ -24,6 +24,7 @@
         android:id="@+id/textViewHero"
         android:layout_width="166dp"
         android:layout_height="207dp"
+        android:text="@string/garry"
         android:textColor="@color/design_default_color_on_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +94,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.761"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/garry_fight" />
 
     <TextView
         android:id="@+id/textViewFight"

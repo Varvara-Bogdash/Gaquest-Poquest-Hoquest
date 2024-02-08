@@ -14,24 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void garryButton(View view) {
-        String textName = "Гарри Поттер";
-Intent intent = new Intent(this, StartActivity1.class);
-        intent.putExtra("name", textName);
-startActivity(intent);
-    }
-
-    public void ronButton(View view) {
-        String textName = "Рон Уизли";
-        Intent intent = new Intent(this, StartActivity1.class);
-        intent.putExtra("name", textName);
-        startActivity(intent);
-    }
-
-    public void germiButton(View view) {
-        String textName = "Гермиона Грейнджер";
-        Intent intent = new Intent(this, StartActivity1.class);
-        intent.putExtra("name", textName);
+    public void start(View view) {
+        Intent intent = new Intent(this, FightActivity1.class);
         startActivity(intent);
     }
 }
