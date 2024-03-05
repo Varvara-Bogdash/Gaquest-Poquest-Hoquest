@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-public class FightActivity1 extends AppCompatActivity {
+public class FightActivity extends AppCompatActivity {
 ImageView imageView;
 Boolean winOrNot;
 TextView textViewHero;
@@ -35,7 +35,7 @@ int healthDementor = 50;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fight1);
+        setContentView(R.layout.activity_fight);
         imageView = findViewById(R.id.imageView4);
         textViewDementor = findViewById(R.id.textViewDementor);
         textViewHero = findViewById(R.id.textViewHero);
@@ -44,13 +44,14 @@ int healthDementor = 50;
         buttonAdKe = findViewById(R.id.buttonAdavaKedavra);
         buttonChit = findViewById(R.id.buttonChit);
         textViewFight = findViewById(R.id.textViewFight);
-                straightHero = 90;
-                healthHero = 100;
-               countClickKru = 2;
-               countClickAdKe = 3;
-               countClickImp = 1;
-               countClickChit = 5;
-                textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - 2, адава кедавра - 3, империус - 1, оборонительное заклинание - 5; здоровье - 100/100;)");
+
+        straightHero = 90;
+        healthHero = 100;
+        countClickKru = 2;
+        countClickAdKe = 3;
+        countClickImp = 1;
+        countClickChit = 5;
+        textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - 2, адава кедавра - 3, империус - 1, оборонительное заклинание - 5; здоровье - 100/100;)");
             }
 
 
@@ -210,7 +211,7 @@ int healthDementor = 50;
             dementorFight();
             healthHero += 10;
             countClickChit = 0;
-                    textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
+            textViewHero.setText("Гарри Поттер (сила - 90/100; усиления: круциатус - " + countClickKru + ", адава кедавра - " + countClickAdKe + ", империус - " + countClickImp + ", оборонительное заклинание - " + countClickChit + "; здоровье - " + healthHero + "/100;)");
             if (healthDementor <= 0){
                 textViewFight.setText("Гарри Поттер победил в игре! Нажмите на любую кнопку для перехода на следующий уровень");
                 winOrNot = true;

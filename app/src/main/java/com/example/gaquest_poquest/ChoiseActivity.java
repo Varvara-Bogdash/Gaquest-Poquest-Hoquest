@@ -18,10 +18,10 @@ int countChit;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choise);
-        countAdKe = Integer.parseInt(Objects.requireNonNull(Objects.requireNonNull(getIntent().getExtras()).getString("countClickAdKe")));
-        countImp = Integer.parseInt(Objects.requireNonNull(Objects.requireNonNull(getIntent().getExtras()).getString("countClickImp")));
-        countKru = Integer.parseInt(Objects.requireNonNull(Objects.requireNonNull(getIntent().getExtras()).getString("countClickKru")));
-        countChit = Integer.parseInt(Objects.requireNonNull(Objects.requireNonNull(getIntent().getExtras()).getString("countClickChit")));
+        countAdKe = getIntent().getExtras().getInt("countClickAdKe");
+        countImp = getIntent().getExtras().getInt("countClickImp");
+        countKru = getIntent().getExtras().getInt("countClickKru");
+        countChit = getIntent().getExtras().getInt("countClickChit");
     }
 
     public void addChit(View view) {

@@ -82,7 +82,7 @@
             android:name=".LevelActivity2"
             android:exported="false" />
         <activity
-            android:name=".FightActivity1"
+            android:name=".FightActivity"
             android:exported="false" />
         <activity
             android:name=".LevelActivity1"

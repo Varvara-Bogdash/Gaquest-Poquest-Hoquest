@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:drawable/editbox_dropdown_light_frame"
-    tools:context=".FightActivity1">
+    tools:context=".FightActivity">
 
     <TextView
         android:id="@+id/textViewDementor"
-        android:layout_width="177dp"
-        android:layout_height="317dp"
+        android:layout_width="234dp"
+        android:layout_height="218dp"
         android:text="@string/dementor"
+        android:textAlignment="center"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.068"
@@ -22,21 +24,23 @@
 
     <TextView
         android:id="@+id/textViewHero"
-        android:layout_width="166dp"
-        android:layout_height="207dp"
+        android:layout_width="208dp"
+        android:layout_height="200dp"
         android:text="@string/garry"
+        android:textAlignment="center"
         android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="159dp"
-        android:layout_height="154dp"
+        android:layout_width="158dp"
+        android:layout_height="217dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -86,20 +90,21 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="162dp"
-        android:layout_height="156dp"
+        android:layout_width="191dp"
+        android:layout_height="197dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761"
+        app:layout_constraintVertical_bias="0.737"
         app:srcCompat="@drawable/garry_fight" />
 
     <TextView
         android:id="@+id/textViewFight"
-        android:layout_width="340dp"
-        android:layout_height="241dp"
+        android:layout_width="396dp"
+        android:layout_height="165dp"
+        android:textAlignment="center"
         android:textColor="@color/design_default_color_error"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

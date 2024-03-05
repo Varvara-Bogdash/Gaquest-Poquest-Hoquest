@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void start(View view) {
-        Intent intent = new Intent(this, FightActivity1.class);
+//        Intent intent = new Intent(this, FightActivity.class);
+        Intent intent = new Intent(this, GallowActivity.class);
         startActivity(intent);
     }
 }
